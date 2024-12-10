@@ -1,0 +1,108 @@
+.container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 80vh;
+   margin-top: 86px;
+
+ }
+ body{
+  height: 1000px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  background-color: #1E1E1E;
+  color: #fff;
+  overflow-x: hidden;
+ }
+ .navbar{
+  justify-content: space-evenly;
+  padding: 2rem 2rem;
+  display: flex;
+  align-items: center;
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  transition: color 0.3s ease;
+  font-size: 18px;
+ }
+ 
+form {
+   max-width: 350px;
+   width: 100%;
+}
+
+.signup-form {
+   display: grid;
+   /* text-align: justify; */
+   align-self: center;
+   max-width: 500px;
+   /* margin: 0 auto; */
+   padding: 20px;
+   background-color: #160d0d;
+   border-radius: 4px;
+ }
+ 
+ .signup-form h2 {
+   text-align: center;
+ }
+ 
+ .form-group {
+   margin-top: 10px;
+   margin-bottom: 20px;
+ }
+ span{
+   color:  #160d0d;
+ }
+ 
+ label {
+   display: block;
+   font-weight: bold;
+   margin-bottom: 5px;
+ }
+ 
+ input[type="text"],input[type="email"]{
+   width: 100%;
+   padding: 10px;
+   border-radius: 4px;
+   border: 1px solid #ccc;
+ }
+ #query{
+   height:8rem;
+   width: 100%;
+   padding: 10px;
+   border-radius: 4px;
+   border: 1px solid #ccc;
+ }
+ 
+ button {
+   width: 100%;
+   padding: 10px;
+   background-color:brown;
+   color: #fff;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+ }
+ 
+ button:hover {
+   background-color: rgb(255, 0, 0);
+ }
+ .footer{
+  justify-content: space-evenly;
+  margin-top: 100px;
+  padding: 2rem 2rem;
+  display: flex;
+  align-items: center;
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  transition: color 0.3s ease;
+  font-size: 18px;
+}
+
