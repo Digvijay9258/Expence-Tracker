@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pennyfy - Sign Up</title>
+    <link rel="stylesheet" href="sign-up.css">
+</head>
+<body>
+    <div class="signup-container">
+        <div class="signup-form">
+            <h1>Sign Up</h1>
+            <p>Create your Pennyfy account to take control of your finances.</p>
+            <form action="/accounts/signup/" method="POST">
+                <div class="form-group">
+                    <input type="text" name="username" placeholder="Username" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Email Address" required>
+                </div>
+                <div class="form-group">
+                    <input type="password" name="password" placeholder="Password" required>
+                </div>
+                <div class="form-group">
+                    <input type="password" name="confirm_password" placeholder="Confirm Password" required>
+                </div>
+                <button type="submit" class="btn">Sign Up</button>
+            </form>
+            <p>Already have an account? <a href="./login.html">Log In</a></p>
+            <hr>
+            <p>Or sign up using</p>
+            <div class="social-buttons">
+                <button class="social-btn google">Google</button>
+                <button class="social-btn facebook">Facebook</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
