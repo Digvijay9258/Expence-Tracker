@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Pennyfy</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+       <div class="login-container">
+        <div class="login-header">
+            <h1>Pennyfy</h1>
+            <p>Manage your finances smarter.</p>
+        </div>
+        <form method="POST" action="/accounts/signin/">
+            <div class="input-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" placeholder="Enter your username" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            </div>
+            <button type="submit" class="login-button">Login</button>
+            <div class="login-footer">
+                <p>Don't have an account? <a href="./sign-up.html">Sign up</a></p>
+                <p><a href="/accounts/password_reset/">Forgot Password?</a></p>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
